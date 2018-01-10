@@ -23,6 +23,9 @@
 # Please reference edk2 user manual for more detail descriptions at https://github.com/tianocore-docs/Docs/raw/master/User_Docs/EDK_II_UserManual_0_7.pdf
 #
 
+export GCC49_AARCH64_PREFIX=${CROSS_COMPILE}
+echo "GCC49_AARCH64_PREFIX=$GCC49_AARCH64_PREFIX"
+
 SCRIPTNAME="edksetup.sh"
 RECONFIG=FALSE
 
